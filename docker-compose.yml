@@ -28,8 +28,11 @@ services:
             - GATEWAY_IP
             - INTEGRATION_VERSION
             - MENDER_ARTIFACT_VERSION
-            - MENDER_VERSION
             - MENDER_DEB_PACKAGE_VERSION
+            - MENDER_VERSION
+            - MENDER_DEPLOYMENTS_VERSION
+            - MENDER_DEVICEAUTH_VERSION
+            - MENDER_INVENTORY_VERSION
 
     #
     # mender-api-gateway
